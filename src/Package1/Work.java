@@ -58,13 +58,6 @@ public abstract class Work {
         this.listEmployee = listEmployee;
     }
 
-    /*public ArrayList<Employee> getListEmployee() {
-        return listEmployee;
-    }
-    public void setListEmployee(ArrayList<Employee> listEmployee) {
-        this.listEmployee = listEmployee;
-    }*/
-
     @Override
     public String toString() {
         return " Work ->-> address = "+address+", squareMeter = "+squareMeter+", estimatedConstructionTime = "+estimatedConstructionTime+", costPerSquareMeter = "+costPerSquareMeter+", listEmployee = "+listEmployee;
@@ -88,6 +81,7 @@ Este cálculo se realiza de la siguiente manera:
         String showEmployeeListOfAWork = "";
         for (int i = 0;i<employee.getListEmployee().size();i++){
             showEmployeeListOfAWork += employee.getListEmployee().get(i);
+
         }
         return showEmployeeListOfAWork;
     }

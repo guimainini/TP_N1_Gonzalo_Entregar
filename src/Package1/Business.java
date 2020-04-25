@@ -32,6 +32,10 @@ public class Business {
         return listWork;
     }
 
+    public void setListWork(ArrayList<Work> listWork) {
+        this.listWork = listWork;
+    }
+
     @Override
     public String toString() {
         return "Business ->-> name = "+name+", listEmployee = "+listEmployee+", listWork = "+listWork;

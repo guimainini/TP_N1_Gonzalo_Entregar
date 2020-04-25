@@ -5,21 +5,9 @@ import java.util.Random;
 
 public class Utility {
     static Random rand = new Random(System.nanoTime());
-    /*static int genereteRandom(int minimo,int maximo){
-        int num = (int)Math.floor(Math.random()*(minimo-(maximo+1))+(maximo+1));
-        return num;
-    }*/
-
-
-
     /* • Solo puede haber UN arquitecto por obra.
        • Mínimo UN maestro mayor y un máximo de tres por obra.
-       • No hay límite para los obreros pero al menos debe haber 2.
-    */
-
-
-
-
+       • No hay límite para los obreros pero al menos debe haber 2.*/
 
     public static ArrayList<Employee> ArmedTeam() {
         ArrayList<Employee> listEmployee = new ArrayList<Employee>();
@@ -52,7 +40,7 @@ public class Utility {
         }
 
         //Obreros
-        //genero un numero aleatorio entre 2 y 5 supe ese maximo
+        //genero un numero aleatorio entre 2 y 5.//5 lo puse como topq
         int num2 = (int)Math.floor(Math.random()*(2-(5+1))+(5+1));
         switch (num2){
             case 2: Worker wor = new Worker("Facu ", "54777777", "154777777", CostDaily.WORKER, 55);

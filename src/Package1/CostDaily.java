@@ -4,7 +4,6 @@ public enum CostDaily
 {
     ARCHITECT(2000),WORKER(1500),CONSTRUCTIONMASTER(1800);
 
-
     private final float desc;
     //constructor
     private CostDaily(float desc){

@@ -3,7 +3,6 @@ package Package1;
 public class Architect extends Employee{
     //Atributos
     private String registrationNumber;
-    private CostDaily costDaily;
 
     //constructor
     public Architect(String name, String dni, String tel,CostDaily costDaily,String registrationNumber) {
