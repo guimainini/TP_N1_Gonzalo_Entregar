@@ -1,4 +1,4 @@
-package Package1;
+package TP_1;
 
 public class ConstructionMaster extends Employee implements Build{
     //atributos

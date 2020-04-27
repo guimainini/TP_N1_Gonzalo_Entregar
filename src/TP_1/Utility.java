@@ -1,4 +1,4 @@
-package Package1;
+package TP_1;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -9,7 +9,7 @@ public class Utility {
        • Mínimo UN maestro mayor y un máximo de tres por obra.
        • No hay límite para los obreros pero al menos debe haber 2.*/
 
-    public static ArrayList<Employee> ArmedTeam() {
+    public static ArrayList<Employee> armedTeam() {
         ArrayList<Employee> listEmployee = new ArrayList<Employee>();
 
         //Arquitectos

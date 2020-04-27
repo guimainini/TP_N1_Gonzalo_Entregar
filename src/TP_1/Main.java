@@ -1,9 +1,6 @@
-package Package1;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package TP_1;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,7 +30,7 @@ public class Main {
 
         //Utility es una clase aux q me genera arquitectos obreros y Masterwork con las restricciones, Arq 1 , work minimo 2, Master entre 1 a 3
 
-        Business busineesOne = new Business("Te construimos hasta la dentadura de la abuela", Utility.ArmedTeam(), listWork);
+        Business busineesOne = new Business("Te construimos hasta la dentadura de la abuela", Utility.armedTeam(), listWork);
 
         for (Employee e : busineesOne.getListEmployee()) {
             System.out.println(e);
@@ -42,9 +39,9 @@ public class Main {
         //C) Crear al menos una obra por cada tipo distinto que existe, asignando empleados a la obra.
         //   También se pide ejecutar algún método para saber el costo estimado de la obra.
 
-        Work work1 = new Shop("Alberti 2500", 500, 50, 150, Utility.ArmedTeam(), "aldrey", "Locales");
-        Work work2 = new Hotel("Bulevar y Quintana", 1500, 365, 350, Utility.ArmedTeam(), "Costa Galana modificacion de baños", 15);
-        Work work3 = new WorkDomestic("Almafuerte 2204", 3, 90, 150, Utility.ArmedTeam(), 2);
+        Work work1 = new Shop("Alberti 2500", 500, 50, 150, Utility.armedTeam(), "aldrey", "Locales");
+        Work work2 = new Hotel("Bulevar y Quintana", 1500, 365, 350, Utility.armedTeam(), "Costa Galana modificacion de baños", 15);
+        Work work3 = new WorkDomestic("Almafuerte 2204", 3, 90, 150, Utility.armedTeam(), 2);
         listWork.add(work1);
         listWork.add(work2);
         listWork.add(work3);

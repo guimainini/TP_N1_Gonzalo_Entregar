@@ -1,4 +1,4 @@
-package Package1;
+package TP_1;
 
 public class Architect extends Employee{
     //Atributos
@@ -11,13 +11,8 @@ public class Architect extends Employee{
     }
 
 
-    //metodos set y get
-    public String getRegistrationNumber() {
-        return registrationNumber;
-    }
-    public void setRegistrationNumber(String registrationNumber) {
-        this.registrationNumber = registrationNumber;
-    }
+    //metodos set y get no necesite
+
 
     @Override
     public String toString() {

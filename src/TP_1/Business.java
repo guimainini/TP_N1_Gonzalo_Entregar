@@ -1,4 +1,4 @@
-package Package1;
+package TP_1;
 /*B) Crear una nueva empresa con un nombre y asignarle distintos tipos de empleados. La empresa
 tiene: nombre, una lista de empleados y las obras realizadas.
 C) Crear al menos una obra por cada tipo distinto que existe, asignando
