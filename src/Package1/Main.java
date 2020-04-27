@@ -53,19 +53,19 @@ public class Main {
         System.out.println("La obra del hotel costara : " + work2.estimatedTotalCost() + " pesos");
         System.out.println("La obra de mi casa costara : " + work3.estimatedTotalCost() + " pesos");
         System.out.println();
+
         //D) Se solicita agregar las obras (del punto anterior) a la lista de la empresa.
 
-        //agrego la lista de obra a mi empresa y las muestro
+        //agrego la lista de obras a mi empresa y las muestro
         busineesOne.setListWork(listWork);
         for (Work w : busineesOne.getListWork()) {
             System.out.println(w);
         }
-
+        System.out.println("\n");
 
 
        //E) Crear un método para recorrer los empleados que trabajan en una obra. Mostrando por pantalla
        // los distintos datos particulares de cada empleado.
-        System.out.println("\n");
 
         //estoy mandando una obra para q me los datos de los empleados , hice una funcion estatica en work
         System.out.print(Work.showEmployee(work1));

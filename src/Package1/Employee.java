@@ -14,37 +14,14 @@ public class Employee {
         this.dni = dni;
         this.tel = tel;
         this.costDaily = costDaily;
-
     }
     public Employee (){
     }
 
     //metodos set y get
-    public String getName(){
-        return name;
-    }
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getDni() {
-        return dni;
-    }
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
-    public String getTel() {
-        return tel;
-    }
-    public void setTel(String tel) {
-        this.tel = tel;
-    }
     public CostDaily getCostDaily() {
         return costDaily;
     }
-    public void setCostDaily(CostDaily costDaily) {
-        this.costDaily = costDaily;
-    }
-
 
 
     @Override

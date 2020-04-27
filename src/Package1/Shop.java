@@ -11,16 +11,7 @@ public class Shop extends WorkCommercial{
         this.sector = sector;
     }
 
-    public Shop() {
-    }
-
-    //set y get
-    public String getSector() {
-        return sector;
-    }
-    public void setSector(String sector) {
-        this.sector = sector;
-    }
+    //set y get no necesite
 
     @Override
     public String toString() {

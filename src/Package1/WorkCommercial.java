@@ -13,16 +13,7 @@ public abstract class WorkCommercial extends Work{
         super(address, squareMeter, estimatedConstructionTime, costPerSquareMeter, listEmployee);
         this.nameWork = nameWork;
     }
-    public WorkCommercial() {
-    }
 
-    //set y get
-    public String getNameWork() {
-        return nameWork;
-    }
-    public void setNameWork(String nameWork) {
-        this.nameWork = nameWork;
-    }
 
     @Override
     public String toString() {

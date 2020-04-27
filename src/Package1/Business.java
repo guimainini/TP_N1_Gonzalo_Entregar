@@ -10,20 +10,19 @@ empresa.
 import java.util.ArrayList;
 
 public class Business {
+    //atributos
     private String name;
     ArrayList<Employee> listEmployee = new ArrayList<Employee>();
     ArrayList<Work> listWork = new ArrayList<>();
 
+    //contructor
     public Business(String name, ArrayList<Employee> listEmployee, ArrayList<Work> listWork) {
         this.name = name;
         this.listEmployee = listEmployee;
         this.listWork = listWork;
     }
 
-    public String getName() {
-        return name;
-    }
-
+    //set y get
     public ArrayList<Employee> getListEmployee() {
         return listEmployee;
     }

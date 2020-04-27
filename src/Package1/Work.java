@@ -25,37 +25,10 @@ public abstract class Work {
     }
 
 
-    //get y sete
-    public String getAddress() {
-        return address;
-    }
-    public void setAddress(String address) {
-        this.address = address;
-    }
-    public float getSquareMeter() {
-        return squareMeter;
-    }
-    public void setSquareMeter(float squareMeter) {
-        this.squareMeter = squareMeter;
-    }
-    public int getEstimatedConstructionTime() {
-        return estimatedConstructionTime;
-    }
-    public void setEstimatedConstructionTime(int estimatedConstructionTime) {
-        this.estimatedConstructionTime = estimatedConstructionTime;
-    }
-    public float getCostPerSquareMeter() {
-        return costPerSquareMeter;
-    }
-    public void setCostPerSquareMeter(float costPerSquareMeter) {
-        this.costPerSquareMeter = costPerSquareMeter;
-    }
+    //get y set
 
     public ArrayList<Employee> getListEmployee() {
         return listEmployee;
-    }
-    public void setListEmployee(ArrayList<Employee> listEmployee) {
-        this.listEmployee = listEmployee;
     }
 
     @Override
@@ -65,9 +38,9 @@ public abstract class Work {
 
 /*Para todas las obras se le calcula un precio estimado del total de la obra.
 Este cálculo se realiza de la siguiente manera:
-     (costo_por_metro * mt2)+(costo_de_empleados * cantidad_dias)
-*/
+     (costo_por_metro * mt2)+(costo_de_empleados * cantidad_dias)*/
 
+    //suma el costo del dia de art master y obrero y hace la cuenta del costo estimado de la obra
   public float estimatedTotalCost(){
       float salary = 0;
       for (int i=0; i < listEmployee.size(); i++){
@@ -77,6 +50,7 @@ Este cálculo se realiza de la siguiente manera:
       return total;
   }
 
+  //nuestra la lista de empleados q trabajan
     public static String showEmployee(Work employee){
         String showEmployeeListOfAWork = "";
         for (int i = 0;i<employee.getListEmployee().size();i++){

@@ -9,9 +9,6 @@ public class Architect extends Employee{
         super(name, dni, tel,costDaily);
         this.registrationNumber = registrationNumber;
     }
-    public Architect(){
-        super();
-    }
 
 
     //metodos set y get
@@ -28,7 +25,7 @@ public class Architect extends Employee{
     }
 
     public String createPlanes(){
-        return "Crear Planos";
+        return "Create Plans";
     }
 
 }

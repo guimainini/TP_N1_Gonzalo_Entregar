@@ -12,16 +12,7 @@ public class WorkDomestic extends Work {
         super(address, squareMeter, estimatedConstructionTime, costPerSquareMeter, listEmployee);
         this.numberRooms = numberRooms;
     }
-    public WorkDomestic() {
-    }
 
-    //set y get
-    public int getNumberRooms() {
-        return numberRooms;
-    }
-    public void setNumberRooms(int numberRooms) {
-        this.numberRooms = numberRooms;
-    }
 
     @Override
     public String toString() {

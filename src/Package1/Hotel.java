@@ -11,16 +11,9 @@ public class Hotel extends WorkCommercial{
         super(address, squareMeter, estimatedConstructionTime, costPerSquareMeter, listEmployee, nameWork);
         this.numberFloor = numberFloor;
     }
-    public Hotel() {
-    }
 
-    //set y get
-    public int getNumberFloor() {
-        return numberFloor;
-    }
-    public void setNumberFloor(int numberFloor) {
-        this.numberFloor = numberFloor;
-    }
+
+    //set y get no necesite
 
     @Override
     public String toString() {

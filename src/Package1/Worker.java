@@ -9,26 +9,12 @@ public class Worker extends Employee implements Build{
         super(name, dni, tel,costDaily);
         this.age = age;
     }
-    public Worker() {
-        super();
-    }
-
-    //set y get
-    public int getAge() {
-        return age;
-    }
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-
 
 
     @Override
     public String toString() {
         return " ->-> Worker -> age = "+age+super.toString();
     }
-
 
     @Override
     public String build() {
